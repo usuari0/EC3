@@ -1,0 +1,5 @@
+package idat.edu.pe.daa2.jpa.servicio;
+
+public class TIpo_usuarioServicio {
+
+}

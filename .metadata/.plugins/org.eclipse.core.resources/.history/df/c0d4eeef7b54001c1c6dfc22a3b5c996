@@ -1,0 +1,5 @@
+package idat.edu.pe.daa2.controladores.configuracion;
+
+public class WebSecurityConfig {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;idat.edu.pe.daa2.jpa.servicio.TIpo_usuarioServicio.java&apos; to &apos;Tipo_usuarioServicio.java&apos;&#x0D;&#x0A;- Original project: &apos;evaluacionContinua3&apos;&#x0D;&#x0A;- Original element: &apos;idat.edu.pe.daa2.jpa.servicio.TIpo_usuarioServicio.java&apos;&#x0D;&#x0A;- Renamed element: &apos;idat.edu.pe.daa2.jpa.servicio.Tipo_usuarioServicio.java&apos;" description="Rename compilation unit &apos;TIpo_usuarioServicio.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;idat.edu.pe.daa2.jpa.servicio{TIpo_usuarioServicio.java" name="Tipo_usuarioServicio.java" references="false" stamp="1638586490243" version="1.0"/>
+</session>

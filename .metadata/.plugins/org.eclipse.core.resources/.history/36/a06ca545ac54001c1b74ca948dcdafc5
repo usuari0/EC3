@@ -1,0 +1,17 @@
+package idat.edu.pe.daa2.jpa.servicio;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import idat.edu.pe.daa2.jpa.modelo.Tipo_usuario;
+import idat.edu.pe.daa2.jpa.repositorio.Tipo_usuarioRepositorio;
+
+@Service
+@Transactional
+public class TIpo_usuarioServicio {
+
+}

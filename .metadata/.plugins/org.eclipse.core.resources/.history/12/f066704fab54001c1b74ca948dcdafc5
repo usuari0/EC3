@@ -1,0 +1,12 @@
+package idat.edu.pe.daa2.jpa.repositorio;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import idat.edu.pe.daa2.jpa.modelo.Categoria;
+
+public class Tipo_usuarioRepositorio {
+
+}

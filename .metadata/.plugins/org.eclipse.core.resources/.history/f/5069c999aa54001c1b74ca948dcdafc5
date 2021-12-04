@@ -1,0 +1,29 @@
+package idat.edu.pe.daa2.jpa.modelo;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.Basic;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@Entity
+@Table(name = "tipo_usuario")
+@XmlRootElement
+@NamedQueries({
+@NamedQuery(name = "Tipo_usuario.findAll", query = "SELECT t FROM Tipo_usuario t")
+, @NamedQuery(name = "Tipo_usuario.findByIdTipo_usuario", query = "SELECT t FROM Tipo_usuario t WHERE t.idTipo_usuario = :idTipo_usuario")
+, @NamedQuery(name = "Tipo_usuario.findByCargo", query = "SELECT t FROM Tipo_usuario t WHERE c.Cargo = :Cargo")})
+
+public class Tipo_usuario {
+
+}
